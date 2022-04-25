@@ -9,3 +9,4 @@ MiniBlocks is a cosmetic addon which introduces:
 
 * MiniBlocks Rotator
 * BlockEnlarger (Allows MiniBlocks to go back to their original form)
+* More Blocks
