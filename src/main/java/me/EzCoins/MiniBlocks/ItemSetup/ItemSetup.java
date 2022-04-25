@@ -62,7 +62,7 @@ public class ItemSetup {
 
     public static final SlimefunItemStack DEEPSLATE = new SlimefunItemStack("DEEPSLATE",
             CustomHeads.DEEPSLATE.getPlayerHead(),
-            "&9Deepslate Diorite &8(MiniBlock)"
+            "&9Deepslate &8(MiniBlock)"
     );
 
     public static final SlimefunItemStack COBBLED_DEEPSLATE = new SlimefunItemStack("COBBLED_DEEPSLATE",
