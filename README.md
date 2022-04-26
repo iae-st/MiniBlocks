@@ -1,4 +1,7 @@
 # MiniBlocks
+
+This addon is mainly made to enhance the player experience of builders.
+
 MiniBlocks is a cosmetic addon which introduces:
 
 * MiniBlocks (Smaller / headlike versions of vanilla blocks)

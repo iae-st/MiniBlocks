@@ -86,6 +86,27 @@ public class BlockReducer extends AbstractMachineBlock  implements RecipeDisplay
         registerRecipe(1, new ItemStack(Material.RAW_COPPER_BLOCK), ItemSetup.BLOCK_OF_RAW_COPPER);
         registerRecipe(1, new ItemStack(Material.AMETHYST_BLOCK), ItemSetup.BLOCK_OF_AMETHYST);
         registerRecipe(1, new ItemStack(Material.BUDDING_AMETHYST), ItemSetup.BUDDING_AMETHYST);
+        registerRecipe(1, new ItemStack(Material.BEACON), ItemSetup.BEACON);
+        registerRecipe(1, new ItemStack(Material.STRUCTURE_VOID), ItemSetup.STRUCTURE_VOID);
+        registerRecipe(1, new ItemStack(Material.BARRIER), ItemSetup.BARRIER);
+        registerRecipe(1, new ItemStack(Material.GLOWSTONE), ItemSetup.GLOWSTONE);
+        registerRecipe(1, new ItemStack(Material.SOUL_SAND), ItemSetup.SOUL_SAND);
+        registerRecipe(1, new ItemStack(Material.SOUL_SOIL), ItemSetup.SOUL_SOIL);
+        registerRecipe(1, new ItemStack(Material.HONEY_BLOCK), ItemSetup.HONEY_BLOCK);
+        registerRecipe(1, new ItemStack(Material.BONE_BLOCK), ItemSetup.BONE_BLOCK);
+        registerRecipe(1, new ItemStack(Material.SLIME_BLOCK), ItemSetup.SLIME_BLOCK);
+        registerRecipe(1, new ItemStack(Material.SOUL_CAMPFIRE), ItemSetup.SOUL_CAMPFIRE);
+        registerRecipe(1, new ItemStack(Material.CAMPFIRE), ItemSetup.CAMPFIRE);
+        registerRecipe(1, new ItemStack(Material.BEE_NEST), ItemSetup.BEE_NEST);
+        registerRecipe(1, new ItemStack(Material.LODESTONE), ItemSetup.LODESTONE);
+        registerRecipe(1, new ItemStack(Material.CRYING_OBSIDIAN), ItemSetup.CRYING_OBSIDIAN);
+        registerRecipe(1, new ItemStack(Material.SOUL_LANTERN), ItemSetup.SOUL_FIRE_LANTERN);
+        registerRecipe(1, new ItemStack(Material.LANTERN), ItemSetup.LANTERN);
+        registerRecipe(1, new ItemStack(Material.SHROOMLIGHT), ItemSetup.SHROOMLIGHT);
+        registerRecipe(1, new ItemStack(Material.REDSTONE_LAMP), ItemSetup.REDSTONE_LAMP);
+        registerRecipe(1, new ItemStack(Material.JACK_O_LANTERN), ItemSetup.PUMPKIN_LANTERN);
+        registerRecipe(1, new ItemStack(Material.DEAD_BUSH), ItemSetup.DEAD_BUSH);
+
 
 
 

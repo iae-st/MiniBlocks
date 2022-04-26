@@ -316,6 +316,106 @@ public class ItemSetup {
             "&9Budding Amethyst &8(MiniBlock)"
     );
 
+    public static final SlimefunItemStack BEACON = new SlimefunItemStack("BEACON",
+            CustomHeads.BEACON.getPlayerHead(),
+            "&9Beacon &8(MiniBlock)"
+    );
+
+    public static final SlimefunItemStack STRUCTURE_VOID = new SlimefunItemStack("STRUCTURE_VOID",
+            CustomHeads.STRUCTURE_VOID.getPlayerHead(),
+            "&9Structure void &8(MiniBlock)"
+    );
+
+    public static final SlimefunItemStack BARRIER = new SlimefunItemStack("BARRIER",
+            CustomHeads.BARRIER.getPlayerHead(),
+            "&9Barrier &8(MiniBlock)"
+    );
+
+    public static final SlimefunItemStack GLOWSTONE = new SlimefunItemStack("GLOWSTONE",
+            CustomHeads.GLOWSTONE.getPlayerHead(),
+            "&9Glowstone &8(MiniBlock)"
+    );
+
+    public static final SlimefunItemStack SOUL_SAND = new SlimefunItemStack("SOUL_SAND",
+            CustomHeads.SOUL_SAND.getPlayerHead(),
+            "&9Soul Sand &8(MiniBlock)"
+    );
+
+    public static final SlimefunItemStack SOUL_SOIL = new SlimefunItemStack("SOUL_SOIL",
+            CustomHeads.SOUL_SOIL.getPlayerHead(),
+            "&9Soul Soil &8(MiniBlock)"
+    );
+
+    public static final SlimefunItemStack HONEY_BLOCK = new SlimefunItemStack("HONEY_BLOCK",
+            CustomHeads.HONEY_BLOCK.getPlayerHead(),
+            "&9Honey Block &8(MiniBlock)"
+    );
+
+    public static final SlimefunItemStack BONE_BLOCK = new SlimefunItemStack("BONE_BLOCK",
+            CustomHeads.BONE_BLOCK.getPlayerHead(),
+            "&9Bone Block &8(MiniBlock)"
+    );
+
+    public static final SlimefunItemStack SLIME_BLOCK = new SlimefunItemStack("SLIME_BLOCK",
+            CustomHeads.SLIME_BLOCK.getPlayerHead(),
+            "&9Slime Block &8(MiniBlock)"
+    );
+
+    public static final SlimefunItemStack SOUL_CAMPFIRE = new SlimefunItemStack("SOUL_CAMPFIRE",
+            CustomHeads.SOUL_CAMPFIRE.getPlayerHead(),
+            "&9Soul Campfire &8(MiniBlock)"
+    );
+
+    public static final SlimefunItemStack CAMPFIRE = new SlimefunItemStack("CAMPFIRE",
+            CustomHeads.CAMPFIRE.getPlayerHead(),
+            "&9Campfire &8(MiniBlock)"
+    );
+
+    public static final SlimefunItemStack BEE_NEST = new SlimefunItemStack("BEE_NEST",
+            CustomHeads.BEE_NEST.getPlayerHead(),
+            "&9Bee Nest &8(MiniBlock)"
+    );
+
+    public static final SlimefunItemStack LODESTONE = new SlimefunItemStack("LODESTONE",
+            CustomHeads.LODESTONE.getPlayerHead(),
+            "&9Lodestone &8(MiniBlock)"
+    );
+
+    public static final SlimefunItemStack CRYING_OBSIDIAN = new SlimefunItemStack("CRYING_OBSIDIAN",
+            CustomHeads.CRYING_OBSIDIAN.getPlayerHead(),
+            "&9Crying Obsidian &8(MiniBlock)"
+    );
+
+    public static final SlimefunItemStack SOUL_FIRE_LANTERN = new SlimefunItemStack("SOUL_FIRE_LANTERN",
+            CustomHeads.SOUL_FIRE_LANTERN.getPlayerHead(),
+            "&9Soul Fire Lantern &8(MiniBlock)"
+    );
+
+    public static final SlimefunItemStack LANTERN = new SlimefunItemStack("LANTERN",
+            CustomHeads.LANTERN.getPlayerHead(),
+            "&9Lantern &8(MiniBlock)"
+    );
+
+    public static final SlimefunItemStack SHROOMLIGHT = new SlimefunItemStack("SHROOMLIGHT",
+            CustomHeads.SHROOMLIGHT.getPlayerHead(),
+            "&9Shroomlight &8(MiniBlock)"
+    );
+
+    public static final SlimefunItemStack REDSTONE_LAMP = new SlimefunItemStack("REDSTONE_LAMP",
+            CustomHeads.REDSTONE_LAMP.getPlayerHead(),
+            "&9Redstone Lamp &8(MiniBlock)"
+    );
+
+    public static final SlimefunItemStack PUMPKIN_LANTERN = new SlimefunItemStack("PUMPKIN_LANTERN",
+            CustomHeads.PUMPKIN_LANTERN.getPlayerHead(),
+            "&9Pumpkin Lantern &8(MiniBlock)"
+    );
+
+    public static final SlimefunItemStack DEAD_BUSH = new SlimefunItemStack("DEAD_BUSH",
+            CustomHeads.DEAD_BUSH.getPlayerHead(),
+            "&9Dead Bush &8(MiniBlock)"
+    );
+
 
 
 
@@ -676,6 +776,127 @@ public class ItemSetup {
                 new ItemStack[]{
                         null, null, null,
                         null, new ItemStack(Material.BUDDING_AMETHYST)})
+                .register(plugin);
+
+        new SlimefunItem(Groups.BLOCKS, BEACON, MiniRecipeType.BlockReducer,
+                new ItemStack[]{
+                        null, null, null,
+                        null, new ItemStack(Material.BEACON)})
+                .register(plugin);
+
+        new SlimefunItem(Groups.BLOCKS, STRUCTURE_VOID, MiniRecipeType.BlockReducer,
+                new ItemStack[]{
+                        null, null, null,
+                        null, new ItemStack(Material.STRUCTURE_VOID)})
+                .register(plugin);
+
+        new SlimefunItem(Groups.BLOCKS, BARRIER, MiniRecipeType.BlockReducer,
+                new ItemStack[]{
+                        null, null, null,
+                        null, new ItemStack(Material.BARRIER)})
+                .register(plugin);
+
+        new SlimefunItem(Groups.BLOCKS, GLOWSTONE, MiniRecipeType.BlockReducer,
+                new ItemStack[]{
+                        null, null, null,
+                        null, new ItemStack(Material.GLOWSTONE)})
+                .register(plugin);
+
+
+        new SlimefunItem(Groups.BLOCKS, SOUL_SAND, MiniRecipeType.BlockReducer,
+                new ItemStack[]{
+                        null, null, null,
+                        null, new ItemStack(Material.SOUL_SAND)})
+                .register(plugin);
+
+        new SlimefunItem(Groups.BLOCKS, SOUL_SOIL, MiniRecipeType.BlockReducer,
+                new ItemStack[]{
+                        null, null, null,
+                        null, new ItemStack(Material.SOUL_SOIL)})
+                .register(plugin);
+
+        new SlimefunItem(Groups.BLOCKS, HONEY_BLOCK, MiniRecipeType.BlockReducer,
+                new ItemStack[]{
+                        null, null, null,
+                        null, new ItemStack(Material.HONEY_BLOCK)})
+                .register(plugin);
+
+        new SlimefunItem(Groups.BLOCKS, BONE_BLOCK, MiniRecipeType.BlockReducer,
+                new ItemStack[]{
+                        null, null, null,
+                        null, new ItemStack(Material.BONE_BLOCK)})
+                .register(plugin);
+
+        new SlimefunItem(Groups.BLOCKS, SLIME_BLOCK, MiniRecipeType.BlockReducer,
+                new ItemStack[]{
+                        null, null, null,
+                        null, new ItemStack(Material.SLIME_BLOCK)})
+                .register(plugin);
+
+        new SlimefunItem(Groups.BLOCKS, SOUL_CAMPFIRE, MiniRecipeType.BlockReducer,
+                new ItemStack[]{
+                        null, null, null,
+                        null, new ItemStack(Material.SOUL_CAMPFIRE)})
+                .register(plugin);
+
+        new SlimefunItem(Groups.BLOCKS, CAMPFIRE, MiniRecipeType.BlockReducer,
+                new ItemStack[]{
+                        null, null, null,
+                        null, new ItemStack(Material.CAMPFIRE)})
+                .register(plugin);
+
+        new SlimefunItem(Groups.BLOCKS, BEE_NEST, MiniRecipeType.BlockReducer,
+                new ItemStack[]{
+                        null, null, null,
+                        null, new ItemStack(Material.BEE_NEST)})
+                .register(plugin);
+
+        new SlimefunItem(Groups.BLOCKS, LODESTONE, MiniRecipeType.BlockReducer,
+                new ItemStack[]{
+                        null, null, null,
+                        null, new ItemStack(Material.LODESTONE)})
+                .register(plugin);
+
+        new SlimefunItem(Groups.BLOCKS, CRYING_OBSIDIAN, MiniRecipeType.BlockReducer,
+                new ItemStack[]{
+                        null, null, null,
+                        null, new ItemStack(Material.CRYING_OBSIDIAN)})
+                .register(plugin);
+
+        new SlimefunItem(Groups.BLOCKS, SOUL_FIRE_LANTERN, MiniRecipeType.BlockReducer,
+                new ItemStack[]{
+                        null, null, null,
+                        null, new ItemStack(Material.SOUL_LANTERN)})
+                .register(plugin);
+
+        new SlimefunItem(Groups.BLOCKS, LANTERN, MiniRecipeType.BlockReducer,
+                new ItemStack[]{
+                        null, null, null,
+                        null, new ItemStack(Material.LANTERN)})
+                .register(plugin);
+
+        new SlimefunItem(Groups.BLOCKS, SHROOMLIGHT, MiniRecipeType.BlockReducer,
+                new ItemStack[]{
+                        null, null, null,
+                        null, new ItemStack(Material.SHROOMLIGHT)})
+                .register(plugin);
+
+        new SlimefunItem(Groups.BLOCKS, REDSTONE_LAMP, MiniRecipeType.BlockReducer,
+                new ItemStack[]{
+                        null, null, null,
+                        null, new ItemStack(Material.REDSTONE_LAMP)})
+                .register(plugin);
+
+        new SlimefunItem(Groups.BLOCKS, PUMPKIN_LANTERN, MiniRecipeType.BlockReducer,
+                new ItemStack[]{
+                        null, null, null,
+                        null, new ItemStack(Material.JACK_O_LANTERN)})
+                .register(plugin);
+
+        new SlimefunItem(Groups.BLOCKS, DEAD_BUSH, MiniRecipeType.BlockReducer,
+                new ItemStack[]{
+                        null, null, null,
+                        null, new ItemStack(Material.DEAD_BUSH)})
                 .register(plugin);
 
     }
