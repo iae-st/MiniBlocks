@@ -106,6 +106,60 @@ public class BlockReducer extends AbstractMachineBlock  implements RecipeDisplay
         registerRecipe(1, new ItemStack(Material.REDSTONE_LAMP), ItemSetup.REDSTONE_LAMP);
         registerRecipe(1, new ItemStack(Material.JACK_O_LANTERN), ItemSetup.PUMPKIN_LANTERN);
         registerRecipe(1, new ItemStack(Material.DEAD_BUSH), ItemSetup.DEAD_BUSH);
+        registerRecipe(1, new ItemStack(Material.TOTEM_OF_UNDYING), ItemSetup.TOTEM_OF_UNDYING);
+        registerRecipe(1, new ItemStack(Material.SCULK_SENSOR), ItemSetup.SCULK_SENSOR);
+        registerRecipe(1, new ItemStack(Material.SCAFFOLDING), ItemSetup.SCAFFOLDING);
+        registerRecipe(1, new ItemStack(Material.LAVA_BUCKET), ItemSetup.LAVA_BUCKET);
+        registerRecipe(1, new ItemStack(Material.WATER_BUCKET), ItemSetup.WATER_BUCKET);
+        registerRecipe(1, new ItemStack(Material.MILK_BUCKET), ItemSetup.MILK_BUCKET);
+        registerRecipe(1, new ItemStack(Material.POWDER_SNOW_BUCKET), ItemSetup.POWDER_SNOW_BUCKET);
+        registerRecipe(1, new ItemStack(Material.BUCKET), ItemSetup.BUCKET);
+        registerRecipe(1, new ItemStack(Material.POPPY), ItemSetup.ROSE);
+        registerRecipe(1, new ItemStack(Material.CHEST), ItemSetup.CHEST);
+        registerRecipe(1, new ItemStack(Material.COCOA_BEANS), ItemSetup.COCOA_BEAN);
+        registerRecipe(1, new ItemStack(Material.SPYGLASS), ItemSetup.SPYGLASS);
+        registerRecipe(1, new ItemStack(Material.BRICKS), ItemSetup.BRICKS);
+        registerRecipe(1, new ItemStack(Material.JUKEBOX), ItemSetup.JUKEBOX);
+        registerRecipe(1, new ItemStack(Material.COMMAND_BLOCK), ItemSetup.COMMAND_BLOCK);
+        registerRecipe(1, new ItemStack(Material.CHAIN_COMMAND_BLOCK), ItemSetup.CHAIN_COMMAND_BLOCK);
+        registerRecipe(1, new ItemStack(Material.REPEATING_COMMAND_BLOCK), ItemSetup.REPEAT_COMMAND_BLOCK);
+        registerRecipe(1, new ItemStack(Material.CACTUS), ItemSetup.CACTUS);
+        registerRecipe(1, new ItemStack(Material.OBSERVER), ItemSetup.OBSERVER);
+        registerRecipe(1, new ItemStack(Material.SLIME_BALL), ItemSetup.SLIME_BALL);
+        registerRecipe(1, new ItemStack(Material.MAGMA_CREAM), ItemSetup.MAGMA_CREAM);
+        registerRecipe(1, new ItemStack(Material.PISTON), ItemSetup.PISTON);
+        registerRecipe(1, new ItemStack(Material.STICKY_PISTON), ItemSetup.STICKY_PISTON);
+        registerRecipe(1, new ItemStack(Material.TARGET), ItemSetup.TARGET_BLOCK);
+        registerRecipe(1, new ItemStack(Material.CRAFTING_TABLE), ItemSetup.CRAFTING_TABLE);
+        registerRecipe(1, new ItemStack(Material.STONECUTTER), ItemSetup.STONECUTTER);
+        registerRecipe(1, new ItemStack(Material.GRINDSTONE), ItemSetup.GRINDSTONE);
+        registerRecipe(1, new ItemStack(Material.FLETCHING_TABLE), ItemSetup.FLETCHING_TABLE);
+        registerRecipe(1, new ItemStack(Material.SMITHING_TABLE), ItemSetup.SMITHING_TABLE);
+        registerRecipe(1, new ItemStack(Material.CARTOGRAPHY_TABLE), ItemSetup.CARTOGRAPHY_TABLE);
+        registerRecipe(1, new ItemStack(Material.ENCHANTING_TABLE), ItemSetup.ENCHANTING_TABLE);
+        registerRecipe(1, new ItemStack(Material.ENCHANTED_BOOK), ItemSetup.ENCHANTED_BOOK);
+        registerRecipe(1, new ItemStack(Material.LOOM), ItemSetup.LOOM);
+        registerRecipe(1, new ItemStack(Material.LECTERN), ItemSetup.LECTERN);
+        registerRecipe(1, new ItemStack(Material.CAULDRON), ItemSetup.CAULDRON);
+        registerRecipe(1, new ItemStack(Material.FURNACE), ItemSetup.FURNACE);
+        registerRecipe(1, new ItemStack(Material.BLAST_FURNACE), ItemSetup.BLAST_FURNACE);
+        registerRecipe(1, new ItemStack(Material.SMOKER), ItemSetup.SMOKER);
+        registerRecipe(1, new ItemStack(Material.ANVIL), ItemSetup.ANVIL);
+        registerRecipe(1, new ItemStack(Material.CHIPPED_ANVIL), ItemSetup.CHIPPED_ANVIL);
+        registerRecipe(1, new ItemStack(Material.DAMAGED_ANVIL), ItemSetup.DAMAGED_ANVIL);
+        registerRecipe(1, new ItemStack(Material.END_CRYSTAL), ItemSetup.END_CRYSTAL);
+        registerRecipe(1, new ItemStack(Material.SPONGE), ItemSetup.SPONGE);
+        registerRecipe(1, new ItemStack(Material.WET_SPONGE), ItemSetup.WET_SPONGE);
+        registerRecipe(1, new ItemStack(Material.CAKE), ItemSetup.CAKE);
+        registerRecipe(1, new ItemStack(Material.COOKIE), ItemSetup.COOKIE);
+        registerRecipe(1, new ItemStack(Material.PUMPKIN_PIE), ItemSetup.PUMPKIN_PIE);
+        registerRecipe(1, new ItemStack(Material.SUGAR_CANE), ItemSetup.SUGAR_CANE);
+        registerRecipe(1, new ItemStack(Material.PUMPKIN), ItemSetup.PUMPKIN);
+        registerRecipe(1, new ItemStack(Material.CARVED_PUMPKIN), ItemSetup.CARVED_PUMPKIN);
+        registerRecipe(1, new ItemStack(Material.MELON), ItemSetup.MELON);
+        registerRecipe(1, new ItemStack(Material.TNT), ItemSetup.TNT);
+
+
 
 
 

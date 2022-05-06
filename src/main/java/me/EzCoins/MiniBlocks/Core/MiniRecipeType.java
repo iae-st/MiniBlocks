@@ -14,7 +14,7 @@ public class MiniRecipeType {
             new RecipeType(new NamespacedKey(MiniBlocks.plugin, "BLOCKREDUCER"),
                     new SlimefunItemStack(
                             "BLOCKREDUCER",
-                            Material.PISTON,
+                            Material.STONECUTTER,
                             "&9Block Reducer"),
                             "",
                                   "&7Turns the desired block into a",
