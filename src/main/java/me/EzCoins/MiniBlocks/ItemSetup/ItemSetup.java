@@ -107,7 +107,7 @@ public class ItemSetup {
     public static final SlimefunItemStack TOTEM_OF_UNDYING = miniblock.setup("TOTEM_OF_UNDYING", CustomHeads.TOTEM_OF_UNDYING);
     public static final SlimefunItemStack SCULK_SENSOR = miniblock.setup("SCULK_SENSOR", CustomHeads.SCULK_SENSOR);
     public static final SlimefunItemStack SCAFFOLDING = miniblock.setup("SCAFFOLDING", CustomHeads.SCAFFOLDING);
-    public static final SlimefunItemStack LAVA_BUCKET = miniblock.setup("LAVA_BUCKET", CustomHeads.DEAD_BUSH);
+    public static final SlimefunItemStack LAVA_BUCKET = miniblock.setup("LAVA_BUCKET", CustomHeads.LAVA_BUCKET);
     public static final SlimefunItemStack WATER_BUCKET = miniblock.setup("WATER_BUCKET", CustomHeads.WATER_BUCKET);
     public static final SlimefunItemStack MILK_BUCKET = miniblock.setup("MILK_BUCKET", CustomHeads.MILK_BUCKET);
     public static final SlimefunItemStack POWDER_SNOW_BUCKET = miniblock.setup("POWDER_SNOW_BUCKET", CustomHeads.POWDER_SNOW_BUCKET);
