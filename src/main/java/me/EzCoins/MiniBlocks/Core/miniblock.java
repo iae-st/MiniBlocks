@@ -23,6 +23,7 @@ public final class miniblock  {
         );
     }
 
+
     public static void craftable(Material material, String name, CustomHeads customHeads) {
         new SlimefunItem(Groups.BLOCKS, setup(name, customHeads), MiniRecipeType.BlockReducer,
                 new ItemStack[]{
@@ -31,6 +32,7 @@ public final class miniblock  {
                 .register(plugin);
 
     }
+
 
 
 

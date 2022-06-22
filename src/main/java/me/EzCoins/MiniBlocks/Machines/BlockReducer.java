@@ -7,6 +7,7 @@ import io.github.thebusybiscuit.slimefun4.core.attributes.RecipeDisplayItem;
 import io.github.thebusybiscuit.slimefun4.libraries.dough.items.CustomItemStack;
 import me.EzCoins.MiniBlocks.Abstract.AbstractMachineBlock;
 import me.EzCoins.MiniBlocks.ItemSetup.ItemSetup;
+import me.EzCoins.MiniBlocks.Utils.CustomHeads;
 import me.mrCookieSlime.Slimefun.Objects.SlimefunItem.abstractItems.MachineRecipe;
 import org.bukkit.Material;
 import org.bukkit.inventory.ItemStack;
@@ -83,6 +84,7 @@ public class BlockReducer extends AbstractMachineBlock  implements RecipeDisplay
         registerRecipe(1, new ItemStack(Material.ANCIENT_DEBRIS), ItemSetup.ANCIENT_DEBRIS);
         registerRecipe(1, new ItemStack(Material.COAL_BLOCK), ItemSetup.BLOCK_OF_COAL);
         registerRecipe(1, new ItemStack(Material.RAW_IRON_BLOCK), ItemSetup.BLOCK_OF_RAW_IRON);
+        registerRecipe(1, new ItemStack(Material.RAW_GOLD_BLOCK), ItemSetup.BLOCK_OF_RAW_GOLD);
         registerRecipe(1, new ItemStack(Material.RAW_COPPER_BLOCK), ItemSetup.BLOCK_OF_RAW_COPPER);
         registerRecipe(1, new ItemStack(Material.AMETHYST_BLOCK), ItemSetup.BLOCK_OF_AMETHYST);
         registerRecipe(1, new ItemStack(Material.BUDDING_AMETHYST), ItemSetup.BUDDING_AMETHYST);

@@ -8,6 +8,7 @@ import io.github.thebusybiscuit.slimefun4.api.items.ItemGroup;
 import io.github.thebusybiscuit.slimefun4.libraries.dough.items.CustomItemStack;
 
 import me.EzCoins.MiniBlocks.Utils.CustomHeads;
+import me.EzCoins.MiniBlocks.Utils.GUIHeads;
 import org.bukkit.Material;
 import org.bukkit.NamespacedKey;
 
@@ -19,11 +20,11 @@ public class Groups {
     }
 
     public static final NestedItemGroup MAINMINIBLOCK = new NestedItemGroup(new NamespacedKey(MiniBlocks.getInstance(), "mainMiniBlocks"),
-            new CustomItemStack(CustomHeads.MAIN_GROUP.getPlayerHead(), "&eMiniBlocks"));
+            new CustomItemStack(GUIHeads.MAIN_GROUP.getPlayerHead(), "&eMiniBlocks"));
 
     public static final ItemGroup BLOCKS = new SubItemGroup(
             new NamespacedKey(MiniBlocks.getInstance(), "MiniBlocksBlocks"), MAINMINIBLOCK,
-            new CustomItemStack(CustomHeads.BLOCKS_GROUP.getPlayerHead(), "&7Blocks"), 1
+            new CustomItemStack(GUIHeads.BLOCKS_GROUP.getPlayerHead(), "&7Blocks"), 1
     );
 
     public static final ItemGroup MACHINES = new SubItemGroup(

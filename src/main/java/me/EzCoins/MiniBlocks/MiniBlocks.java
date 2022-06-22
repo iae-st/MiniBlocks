@@ -3,6 +3,7 @@ package me.EzCoins.MiniBlocks;
 
 import io.github.mooy1.infinitylib.core.AbstractAddon;
 import io.github.thebusybiscuit.slimefun4.api.SlimefunAddon;
+import io.github.thebusybiscuit.slimefun4.libraries.dough.updater.GitHubBuildsUpdater;
 import me.EzCoins.MiniBlocks.Core.Groups;
 import me.EzCoins.MiniBlocks.ItemSetup.ItemSetup;
 import org.bukkit.plugin.PluginDescriptionFile;
@@ -32,12 +33,23 @@ public final class MiniBlocks extends AbstractAddon implements SlimefunAddon {
 
 
 
+
+
     @Override
     protected void enable() {
 
         getLogger().info("------------------------");
         getLogger().info("|         MiniBlocks ~ EzCoins          |");
         getLogger().info("------------------------");
+
+
+        if (!new File(getDataFolder(), "config.yml").exists()) {
+            saveDefaultConfig();
+        }
+
+        if (getConfig().getBoolean("options.auto-update") && getDescription().getVersion().startsWith("DEV - ")) {
+            new GitHubBuildsUpdater(this, getFile(), "TheRealEzCoins/MiniBlocks/master").start();
+        }
 
 
 
