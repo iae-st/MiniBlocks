@@ -1,4 +1,4 @@
-package me.EzCoins.MiniBlocks.Core;
+package me.EzCoins.MiniBlocks.core;
 
 import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItemStack;
 import io.github.thebusybiscuit.slimefun4.api.recipes.RecipeType;

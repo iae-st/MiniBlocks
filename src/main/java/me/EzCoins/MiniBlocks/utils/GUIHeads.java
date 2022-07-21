@@ -1,9 +1,8 @@
-package me.EzCoins.MiniBlocks.Utils;
+package me.EzCoins.MiniBlocks.utils;
 
 import io.github.thebusybiscuit.slimefun4.libraries.dough.skins.PlayerHead;
 import io.github.thebusybiscuit.slimefun4.libraries.dough.skins.PlayerSkin;
 import lombok.Getter;
-import org.bukkit.Material;
 import org.bukkit.inventory.ItemStack;
 
 import javax.annotation.ParametersAreNonnullByDefault;
