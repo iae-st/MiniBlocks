@@ -78,7 +78,8 @@ public class BlockReducer extends AbstractMachineBlock  implements RecipeDisplay
         registerRecipe(1, new ItemStack(Material.DEEPSLATE_EMERALD_ORE), ItemSetup.DEEPSLATE_EMERALD_ORE);
         registerRecipe(1, new ItemStack(Material.LAPIS_ORE), ItemSetup.LAPIS_LAZULI_ORE);
         registerRecipe(1, new ItemStack(Material.DEEPSLATE_LAPIS_ORE), ItemSetup.DEEPSLATE_LAPIS_LAZULI_ORE);
-        registerRecipe(1, new ItemStack(Material.DIAMOND_ORE), ItemSetup.DEEPSLATE_DIAMOND_ORE);
+        registerRecipe(1, new ItemStack(Material.DIAMOND_ORE), ItemSetup.DIAMOND_ORE);
+        registerRecipe(1, new ItemStack(Material.DEEPSLATE_DIAMOND_ORE), ItemSetup.DEEPSLATE_DIAMOND_ORE);
         registerRecipe(1, new ItemStack(Material.NETHER_GOLD_ORE), ItemSetup.NETHER_GOLD_ORE);
         registerRecipe(1, new ItemStack(Material.NETHER_QUARTZ_ORE), ItemSetup.NETHER_QUARTZ_ORE);
         registerRecipe(1, new ItemStack(Material.ANCIENT_DEBRIS), ItemSetup.ANCIENT_DEBRIS);
@@ -88,6 +89,26 @@ public class BlockReducer extends AbstractMachineBlock  implements RecipeDisplay
         registerRecipe(1, new ItemStack(Material.RAW_COPPER_BLOCK), ItemSetup.BLOCK_OF_RAW_COPPER);
         registerRecipe(1, new ItemStack(Material.AMETHYST_BLOCK), ItemSetup.BLOCK_OF_AMETHYST);
         registerRecipe(1, new ItemStack(Material.BUDDING_AMETHYST), ItemSetup.BUDDING_AMETHYST);
+        registerRecipe(1, new ItemStack(Material.IRON_BLOCK), ItemSetup.IRON_BLOCK);
+        registerRecipe(1, new ItemStack(Material.COPPER_BLOCK), ItemSetup.COPPER_BLOCK);
+        registerRecipe(1, new ItemStack(Material.GOLD_BLOCK), ItemSetup.GOLD_BLOCK);
+        registerRecipe(1, new ItemStack(Material.DIAMOND_BLOCK), ItemSetup.DIAMOND_BLOCK);
+        registerRecipe(1, new ItemStack(Material.NETHERITE_BLOCK), ItemSetup.NETHERITE_BLOCK);
+        registerRecipe(1, new ItemStack(Material.EXPOSED_COPPER), ItemSetup.EXPOSED_COPPER);
+        registerRecipe(1, new ItemStack(Material.WEATHERED_COPPER), ItemSetup.WEATHERED_COPPER);
+        registerRecipe(1, new ItemStack(Material.OXIDIZED_COPPER), ItemSetup.OXIDIZED_COPPER);
+        registerRecipe(1, new ItemStack(Material.CUT_COPPER), ItemSetup.CUT_COPPER);
+        registerRecipe(1, new ItemStack(Material.EXPOSED_CUT_COPPER), ItemSetup.EXPOSED_CUT_COPPER);
+        registerRecipe(1, new ItemStack(Material.WEATHERED_CUT_COPPER), ItemSetup.WEATHERED_CUT_COPPER);
+        registerRecipe(1, new ItemStack(Material.OXIDIZED_CUT_COPPER), ItemSetup.OXIDIZED_CUT_COPPER);
+        registerRecipe(1, new ItemStack(Material.OAK_LOG), ItemSetup.OAK_LOG);
+        registerRecipe(1, new ItemStack(Material.SPRUCE_LOG), ItemSetup.SPRUCE_LOG);
+        registerRecipe(1, new ItemStack(Material.BIRCH_LOG), ItemSetup.BIRCH_LOG);
+        registerRecipe(1, new ItemStack(Material.JUNGLE_LOG), ItemSetup.JUNGLE_LOG);
+        registerRecipe(1, new ItemStack(Material.ACACIA_LOG), ItemSetup.ACACIA_LOG);
+        registerRecipe(1, new ItemStack(Material.DARK_OAK_LOG), ItemSetup.DARK_OAK_LOG);
+        registerRecipe(1, new ItemStack(Material.CRIMSON_STEM), ItemSetup.CRIMSON_STEM);
+        registerRecipe(1, new ItemStack(Material.WARPED_STEM), ItemSetup.WARPED_STEM);
         registerRecipe(1, new ItemStack(Material.BEACON), ItemSetup.BEACON);
         registerRecipe(1, new ItemStack(Material.STRUCTURE_VOID), ItemSetup.STRUCTURE_VOID);
         registerRecipe(1, new ItemStack(Material.BARRIER), ItemSetup.BARRIER);
@@ -160,6 +181,7 @@ public class BlockReducer extends AbstractMachineBlock  implements RecipeDisplay
         registerRecipe(1, new ItemStack(Material.CARVED_PUMPKIN), ItemSetup.CARVED_PUMPKIN);
         registerRecipe(1, new ItemStack(Material.MELON), ItemSetup.MELON);
         registerRecipe(1, new ItemStack(Material.TNT), ItemSetup.TNT);
+
 
 
 

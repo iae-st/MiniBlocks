@@ -1,7 +1,7 @@
 package me.EzCoins.MiniBlocks;
 
-
 import io.github.mooy1.infinitylib.core.AbstractAddon;
+import io.github.mooy1.infinitylib.metrics.bukkit.Metrics;
 import io.github.thebusybiscuit.slimefun4.api.SlimefunAddon;
 import io.github.thebusybiscuit.slimefun4.libraries.dough.updater.GitHubBuildsUpdater;
 import me.EzCoins.MiniBlocks.Core.Groups;
@@ -37,7 +37,7 @@ public final class MiniBlocks extends AbstractAddon implements SlimefunAddon {
 
     @Override
     protected void enable() {
-
+        plugin = this;
         getLogger().info("------------------------");
         getLogger().info("|         MiniBlocks ~ EzCoins          |");
         getLogger().info("------------------------");
@@ -53,8 +53,9 @@ public final class MiniBlocks extends AbstractAddon implements SlimefunAddon {
 
 
 
+        int pluginId = 15867;
+        Metrics metrics = new Metrics(this, pluginId);
 
-        plugin = this;
 
         Groups.setup(this);
         ItemSetup.setup(this);

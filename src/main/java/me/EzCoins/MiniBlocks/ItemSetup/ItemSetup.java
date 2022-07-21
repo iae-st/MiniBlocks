@@ -39,16 +39,16 @@ public class ItemSetup {
     public static final SlimefunItemStack DRIPSTONE_BLOCK = miniblock.setup("DRIPSTONE_BLOCK", CustomHeads.DRIPSTONE_BLOCK);
     public static final SlimefunItemStack GRASS_BLOCK = miniblock.setup("GRASS_BLOCK", CustomHeads.GRASS_BLOCK);
     public static final SlimefunItemStack DIRT = miniblock.setup("DIRT", CustomHeads.DIRT);
-    public static final SlimefunItemStack COARSE_DIRT = miniblock.setup("COARSE_DIRT", CustomHeads.POLISHED_DEEPSLATE);
-    public static final SlimefunItemStack PODZOL = miniblock.setup("PODZOL", CustomHeads.POLISHED_DEEPSLATE);
-    public static final SlimefunItemStack ROOTED_DIRT = miniblock.setup("ROOTED_DIRT", CustomHeads.POLISHED_DEEPSLATE);
-    public static final SlimefunItemStack CRIMSON_NYLIUM = miniblock.setup("CRIMSON_NYLIUM", CustomHeads.POLISHED_DEEPSLATE);
-    public static final SlimefunItemStack WARPED_NYLIUM = miniblock.setup("WARPED_NYLIUM", CustomHeads.POLISHED_DEEPSLATE);
+    public static final SlimefunItemStack COARSE_DIRT = miniblock.setup("COARSE_DIRT", CustomHeads.COARSE_DIRT);
+    public static final SlimefunItemStack PODZOL = miniblock.setup("PODZOL", CustomHeads.PODZOL);
+    public static final SlimefunItemStack ROOTED_DIRT = miniblock.setup("ROOTED_DIRT", CustomHeads.ROOTED_DIRT);
+    public static final SlimefunItemStack CRIMSON_NYLIUM = miniblock.setup("CRIMSON_NYLIUM", CustomHeads.CRIMSON_NYLIUM);
+    public static final SlimefunItemStack WARPED_NYLIUM = miniblock.setup("WARPED_NYLIUM", CustomHeads.WARPED_NYLIUM);
     public static final SlimefunItemStack COBBLESTONE = miniblock.setup("COBBLESTONE", CustomHeads.COBBLESTONE);
     public static final SlimefunItemStack OAK_PLANKS = miniblock.setup("OAK_PLANKS", CustomHeads.OAK_PLANKS);
     public static final SlimefunItemStack SPRUCE_PLANKS = miniblock.setup("SPRUCE_PLANKS", CustomHeads.SPRUCE_PLANKS);
     public static final SlimefunItemStack BIRCH_PLANKS = miniblock.setup("BIRCH_PLANKS", CustomHeads.BIRCH_PLANKS);
-    public static final SlimefunItemStack JUNGLE_PLANKS = miniblock.setup("JUNGLE_PLANKS", CustomHeads.POLISHED_DEEPSLATE);
+    public static final SlimefunItemStack JUNGLE_PLANKS = miniblock.setup("JUNGLE_PLANKS", CustomHeads.JUNGLE_PLANKS);
     public static final SlimefunItemStack ACACIA_PLANKS = miniblock.setup("ACACIA_PLANKS", CustomHeads.ACACIA_PLANKS);
     public static final SlimefunItemStack DARK_OAK_PLANKS = miniblock.setup("DARK_OAK_PLANKS", CustomHeads.DARK_OAK_PLANKS);
     public static final SlimefunItemStack CRIMSON_PLANKS = miniblock.setup("CRIMSON_PLANKS", CustomHeads.CRIMSON_PLANKS);
@@ -82,6 +82,29 @@ public class ItemSetup {
     public static final SlimefunItemStack BLOCK_OF_RAW_GOLD = miniblock.setup("BLOCK_OF_RAW_GOLD", CustomHeads.RAW_GOLD_BLOCK);
     public static final SlimefunItemStack BLOCK_OF_AMETHYST = miniblock.setup("BLOCK_OF_AMETHYST", CustomHeads.AMETHYST_BLOCK);
     public static final SlimefunItemStack BUDDING_AMETHYST = miniblock.setup("BUDDING_AMETHYST", CustomHeads.BUDDING_AMETHYST);
+    public static final SlimefunItemStack IRON_BLOCK = miniblock.setup("IRON_BLOCK", CustomHeads.IRON_BLOCK);
+    public static final SlimefunItemStack COPPER_BLOCK = miniblock.setup("COPPER_BLOCK", CustomHeads.COPPER_BLOCK);
+    public static final SlimefunItemStack GOLD_BLOCK = miniblock.setup("GOLD_BLOCK", CustomHeads.GOLD_BLOCK);
+    public static final SlimefunItemStack DIAMOND_BLOCK = miniblock.setup("DIAMOND_BLOCK", CustomHeads.DIAMOND_BLOCK);
+    public static final SlimefunItemStack NETHERITE_BLOCK = miniblock.setup("NETHERITE_BLOCK", CustomHeads.NETHERITE_BLOCK);
+    public static final SlimefunItemStack EXPOSED_COPPER = miniblock.setup("EXPOSED_COPPER", CustomHeads.EXPOSED_COPPER);
+    public static final SlimefunItemStack WEATHERED_COPPER = miniblock.setup("WEATHERED_COPPER", CustomHeads.WEATHERED_COPPER);
+    public static final SlimefunItemStack OXIDIZED_COPPER = miniblock.setup("OXIDIZED_COPPER", CustomHeads.OXIDIZED_COPPER);
+    public static final SlimefunItemStack CUT_COPPER = miniblock.setup("CUT_COPPER", CustomHeads.CUT_COPPER);
+    public static final SlimefunItemStack EXPOSED_CUT_COPPER = miniblock.setup("EXPOSED_CUT_COPPER", CustomHeads.EXPOSED_CUT_COPPER);
+    public static final SlimefunItemStack WEATHERED_CUT_COPPER = miniblock.setup("WEATHERED_CUT_COPPER", CustomHeads.WEATHERED_CUT_COPPER);
+    public static final SlimefunItemStack OXIDIZED_CUT_COPPER = miniblock.setup("OXIDIZED_CUT_COPPER", CustomHeads.OXIDIZED_CUT_COPPER);
+    public static final SlimefunItemStack OAK_LOG = miniblock.setup("OAK_LOG", CustomHeads.OAK_LOG);
+    public static final SlimefunItemStack SPRUCE_LOG = miniblock.setup("SPRUCE_LOG", CustomHeads.SPRUCE_LOG);
+    public static final SlimefunItemStack BIRCH_LOG = miniblock.setup("BIRCH_LOG", CustomHeads.BIRCH_LOG);
+    public static final SlimefunItemStack JUNGLE_LOG = miniblock.setup("JUNGLE_LOG", CustomHeads.JUNGLE_LOG);
+    public static final SlimefunItemStack ACACIA_LOG = miniblock.setup("ACACIA_LOG", CustomHeads.ACACIA_LOG);
+    public static final SlimefunItemStack DARK_OAK_LOG = miniblock.setup("DARK_OAK_LOG", CustomHeads.DARK_OAK_LOG);
+    public static final SlimefunItemStack CRIMSON_STEM = miniblock.setup("CRIMSON_STEM", CustomHeads.CRIMSON_STEM);
+    public static final SlimefunItemStack WARPED_STEM = miniblock.setup("WARPED_STEM", CustomHeads.WARPED_STEM);
+
+
+
     public static final SlimefunItemStack BEACON = miniblock.setup("BEACON", CustomHeads.BEACON);
     public static final SlimefunItemStack STRUCTURE_VOID = miniblock.setup("STRUCTURE_VOID", CustomHeads.STRUCTURE_VOID);
     public static final SlimefunItemStack BARRIER = miniblock.setup("BARRIER", CustomHeads.BARRIER);
