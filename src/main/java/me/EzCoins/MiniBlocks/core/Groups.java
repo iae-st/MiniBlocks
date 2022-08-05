@@ -1,4 +1,4 @@
-package me.EzCoins.MiniBlocks.Core;
+package me.EzCoins.MiniBlocks.core;
 
 import me.EzCoins.MiniBlocks.MiniBlocks;
 
@@ -7,8 +7,7 @@ import io.github.thebusybiscuit.slimefun4.api.items.groups.SubItemGroup;
 import io.github.thebusybiscuit.slimefun4.api.items.ItemGroup;
 import io.github.thebusybiscuit.slimefun4.libraries.dough.items.CustomItemStack;
 
-import me.EzCoins.MiniBlocks.Utils.CustomHeads;
-import me.EzCoins.MiniBlocks.Utils.GUIHeads;
+import me.EzCoins.MiniBlocks.utils.GUIHeads;
 import org.bukkit.Material;
 import org.bukkit.NamespacedKey;
 

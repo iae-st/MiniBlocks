@@ -1,4 +1,4 @@
-package me.EzCoins.MiniBlocks.Abstract;
+package me.EzCoins.MiniBlocks.abstracts;
 
 
 import io.github.thebusybiscuit.slimefun4.api.SlimefunAddon;
@@ -18,7 +18,7 @@ import io.github.thebusybiscuit.slimefun4.libraries.dough.protection.Interaction
 import io.github.thebusybiscuit.slimefun4.utils.ChestMenuUtils;
 import io.github.thebusybiscuit.slimefun4.utils.SlimefunUtils;
 import io.github.thebusybiscuit.slimefun4.utils.itemstack.ItemStackWrapper;
-import me.EzCoins.MiniBlocks.Utils.GUIBuilder;
+import me.EzCoins.MiniBlocks.utils.GUIBuilder;
 import me.mrCookieSlime.CSCoreLibPlugin.Configuration.Config;
 import me.mrCookieSlime.Slimefun.Objects.SlimefunItem.abstractItems.MachineRecipe;
 import me.mrCookieSlime.Slimefun.Objects.handlers.BlockTicker;
