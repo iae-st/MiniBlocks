@@ -6,6 +6,7 @@ import io.github.thebusybiscuit.slimefun4.api.SlimefunAddon;
 import io.github.thebusybiscuit.slimefun4.libraries.dough.updater.GitHubBuildsUpdater;
 import me.EzCoins.MiniBlocks.core.Groups;
 import me.EzCoins.MiniBlocks.itemsetup.ItemSetup;
+import me.EzCoins.MiniBlocks.utils.CustomHead;
 import org.bukkit.plugin.PluginDescriptionFile;
 import org.bukkit.plugin.java.JavaPluginLoader;
 
@@ -41,6 +42,8 @@ public final class MiniBlocks extends AbstractAddon implements SlimefunAddon {
         getLogger().info("------------------------");
         getLogger().info("|         MiniBlocks ~ EzCoins          |");
         getLogger().info("------------------------");
+
+        CustomHead.setupHead();
 
 
         if (!new File(getDataFolder(), "config.yml").exists()) {

@@ -5,6 +5,7 @@ import io.github.thebusybiscuit.slimefun4.libraries.dough.skins.PlayerHead;
 import io.github.thebusybiscuit.slimefun4.libraries.dough.skins.PlayerSkin;
 import lombok.Getter;
 import lombok.Setter;
+import me.EzCoins.MiniBlocks.core.MiniBlock;
 import org.bukkit.Material;
 import org.bukkit.inventory.ItemStack;
 
@@ -201,5 +202,11 @@ public enum CustomHead {
             }
         }
         return null;
+    }
+
+    public static void setupHead() {
+        for(CustomHead customHead : CustomHead.values()) {
+            MiniBlock.setup(customHead);
+        }
     }
 }

@@ -31,6 +31,11 @@ public class Groups {
             new CustomItemStack(Material.FURNACE_MINECART, "&7Machines"), 2
     );
 
+    public static final ItemGroup SYNTHETIC = new SubItemGroup(
+            new NamespacedKey(MiniBlocks.getInstance(), "MiniBlocksSynthetic"), MAINMINIBLOCK,
+            new CustomItemStack(Material.PURPLE_DYE, "&7Synthetic Resources"), 3
+    );
+
 
     public static void setup(MiniBlocks inst) {
     }
